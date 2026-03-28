@@ -1,4 +1,4 @@
-# DiSE Programmer Fork
+# DiSE Programmer MacOS
 
 DIY Speed Editor hardware project plus a modern macOS configurator for programming the device, saving layouts, and managing custom Resolve-style mappings.
 

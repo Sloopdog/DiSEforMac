@@ -1,0 +1,31 @@
+# macOS / Finder
+.DS_Store
+
+# Swift package / local app builds
+macos/.build/
+macos/.swiftpm/
+macos/build/
+*.app
+*.dSYM/
+
+# Firmware / native build outputs
+*.o
+*.obj
+*.out
+*.elf
+*.hex
+*.bin
+*.map
+*.d
+*.dll
+*.so
+*.dylib
+*.a
+*.lib
+
+# IDE noise
+.vscode/
+.idea/
+*.user
+*.suo
+*.pdb

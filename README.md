@@ -1,4 +1,4 @@
-# DiSE Programmer MacOS
+# DiSE Programmer Fork
 
 DIY Speed Editor hardware project plus a modern macOS configurator for programming the device, saving layouts, and managing custom Resolve-style mappings.
 
@@ -95,24 +95,15 @@ Core parts used by the project:
 
 The original repo content in `media/`, `mechanics/`, and `pcb/` contains the detailed build references.
 
-## Suggested GitHub Upload Flow
+## Hardware Assets Included
 
-This folder is intended to be uploaded as a fresh repo. If you want to publish it from the command line:
+This fork includes the original project assets needed to reproduce or extend the hardware:
 
-```bash
-cd '/Users/michaelsloop/Documents/Vscodeapps/DiSE-GitHub-Fork'
-git init
-git add .
-git commit -m "Initial fork"
-```
-
-Then create a new GitHub repository and push it:
-
-```bash
-git branch -M main
-git remote add origin <your-github-repo-url>
-git push -u origin main
-```
+- firmware sources in `src/Firmware`
+- Windows programmer sources in `src/SpeedEditorProg`
+- KiCad project files, footprints, and gerbers in `pcb/`
+- case and print assets in `mechanics/`
+- release history in `release/`
 
 ## License
 
